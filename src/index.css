@@ -1,5 +1,6 @@
 /* index.css - All Color Variables */
 @import "tailwindcss";
+
 :root {
   /* Primary Colors */
   --primary-orange: #FF6B2C;
