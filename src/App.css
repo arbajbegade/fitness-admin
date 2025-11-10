@@ -1,0 +1,17 @@
+/* App.css */
+.sidebar-active {
+  background-color: var(--primary-orange);
+  color: var(--white);
+}
+
+.chart-bar-workout {
+  background-color: var(--cyan);
+}
+
+.chart-bar-calories {
+  background-color: var(--primary-orange);
+}
+
+.chart-bar-steps {
+  background-color: var(--purple);
+}
