@@ -6,7 +6,7 @@ const HeroCard = () => {
     <div className="rounded-2xl overflow-hidden flex shadow">
       
       {/* Left Side - Orange with Content */}
-      <div className="bg-orange-500 p-6 lg:p-8 text-white flex-1 flex items-center">
+      <div className="bg-orange-400 p-6 lg:p-8 text-white flex-1 flex items-center">
         <div className="max-w-md">
           <h2 className="text-2xl lg:text-3xl font-bold mb-3">Track Your Daily Activities</h2>
           <p className="text-white/90 text-sm lg:text-base">
@@ -22,7 +22,7 @@ const HeroCard = () => {
           alt="Fitness Activity" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-linear-to-r from-orange-500 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-orange-400 to-transparent" />
       </div>
       
     </div>

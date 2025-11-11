@@ -1,5 +1,5 @@
-// components/PromoCard.jsx
 import React from 'react';
+import pic from "../assets/members.png";
 
 const PromoCard = () => {
   return (
@@ -13,6 +13,14 @@ const PromoCard = () => {
           Upgrade
         </button>
       </div>
+      
+      {/* Image on right bottom */}
+      <img 
+        src={pic} 
+        alt="Members" 
+        className="absolute right-0 bottom-0 w-32 h-32 lg:w-40 lg:h-40 object-contain"
+      />
+      
       <div className="absolute right-4 bottom-4 w-24 h-24 bg-white/10 rounded-full" />
     </div>
   );
