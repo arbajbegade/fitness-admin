@@ -1,11 +1,9 @@
-// components/Header.jsx
 import React, { useMemo } from "react";
 import { LayoutGrid, Search, Bell, Settings } from "lucide-react";
 
 const Header = ({ setIsSidebarOpen }) => {
   const currentHour = new Date().getHours();
 
-  // Determine greeting based on time
   const greeting = useMemo(() => {
     if (currentHour < 12) return "Good Morning 🌤️";
     if (currentHour < 18) return "Good Afternoon ☀️";
