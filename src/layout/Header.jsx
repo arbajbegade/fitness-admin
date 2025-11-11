@@ -48,7 +48,7 @@ const Header = ({ setIsSidebarOpen }) => {
             <Bell size={20} className="text-gray-600" />
           </button>
           <button className="p-2 hover:bg-gray-100 rounded-lg">
-            <Settings size={20} className="text-gray-600" />
+            <Settings size={20} className="text-gray-600 animate-slow-spin" />
           </button>
           <div className="w-10 h-10 rounded-full bg-linear-to-br from-orange-400 to-pink-500" />
         </div>
