@@ -10,7 +10,7 @@ const Schedule = () => {
   ];
 
   return (
-    <div className="bg-white rounded-2xl p-6 shadow-sm">
+    <div className="p-6">
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-lg font-semibold text-gray-900">My Schedule</h3>
         <button className="text-sm text-orange-500 hover:text-orange-600 font-medium flex items-center gap-1">
@@ -20,9 +20,9 @@ const Schedule = () => {
 
       <div className="space-y-4">
         {scheduleData.map((item, idx) => (
-          <div key={idx}>
+          <div key={idx} className='bg-white p-4 rounded-xl shadow' >
             <p className="text-sm font-semibold text-gray-900 mb-2">{item.day}</p>
-            <div className="bg-gray-50 rounded-xl p-4 flex items-center gap-3">
+            <div className="flex items-center gap-3">
               <span className="text-2xl">{item.icon}</span>
               <div className="flex-1">
                 <p className="text-sm font-medium text-gray-900">{item.activity}</p>

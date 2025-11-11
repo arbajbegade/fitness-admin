@@ -8,8 +8,8 @@ const FoodTable = () => {
   ];
 
   return (
-    <div className="bg-white rounded-2xl p-6 shadow-sm overflow-x-auto">
-      <table className="w-full">
+    <div className="overflow-x-auto">
+      <table className="w-full border-separate border-spacing-y-4">
         <thead>
           <tr className="border-b border-gray-200">
             <th className="text-left py-3 px-2 text-sm font-semibold text-gray-700">Food</th>
@@ -21,7 +21,7 @@ const FoodTable = () => {
         </thead>
         <tbody>
           {foodData.map((item, idx) => (
-            <tr key={idx} className="border-b border-gray-100 last:border-0">
+            <tr key={idx} className="border-b border-gray-100 bg-white shadow last:border-0">
               <td className="py-4 px-2">
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">{item.icon}</span>

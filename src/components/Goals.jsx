@@ -9,7 +9,7 @@ const Goals = () => {
   ];
 
   return (
-    <div className="bg-white rounded-2xl p-6 shadow-sm">
+    <div className="p-6">
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-lg font-semibold text-gray-900">Goals</h3>
         <button className="text-sm text-orange-500 hover:text-orange-600 font-medium flex items-center gap-1">
@@ -19,7 +19,7 @@ const Goals = () => {
 
       <div className="space-y-4">
         {goalsData.map((item, idx) => (
-          <div key={idx} className="bg-gray-50 rounded-xl p-4">
+          <div key={idx} className="bg-gray-50 rounded-xl p-4 shadow">
             <p className="text-sm font-medium text-gray-900 mb-1">{item.title}</p>
             <p className="text-xs text-gray-600 mb-2">{item.date}</p>
             <span className="text-xs font-medium text-orange-500 bg-orange-50 px-3 py-1 rounded-full inline-block">
