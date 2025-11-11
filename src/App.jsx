@@ -17,7 +17,7 @@ function App() {
 
   return (
     <Router>
-      <div className="flex h-screen bg-gray-50 overflow-hidden">
+      <div className="flex h-screen app-bg overflow-hidden">
         <Sidebar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen} />
 
         {/* Mobile overlay */}

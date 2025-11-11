@@ -4,6 +4,9 @@
   color: var(--white);
 }
 
+.app-bg {
+  background-color: var(--bg-color);
+}
 .chart-bar-workout {
   background-color: var(--cyan);
 }

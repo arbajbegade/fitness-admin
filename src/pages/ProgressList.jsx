@@ -27,7 +27,7 @@ const ProgressList = () => {
   ];
 
   return (
-    <div className="p-6">
+    <div className="p-6 overflow-y-auto">
       <div className="mb-8 text-center sm:text-left">
         <h1 className="text-3xl font-bold text-gray-900">Weekly Progress</h1>
         <p className="text-gray-600 mt-1">
